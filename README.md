@@ -24,5 +24,5 @@ Console.WriteLine("解压缩");
 
 ZipHelper.UnZip(@"C:\Users\WILL_V\pcd_8.pcs.zip",@"C:\Users\WILL_V\TestData\Test\pcd_8.pcs");
 
-##Lience
+##License
 GPL
