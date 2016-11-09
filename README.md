@@ -15,5 +15,14 @@
 <p>.NET Compact Framework 1.0</p>
 <p>.NET Compact Framework 2.0</p>
 
+##Example
+Console.WriteLine("压缩");
+
+ZipHelper.CreateZip(@"C:\Users\WILL_V\TestData\pcd_8.pcs",@"C:\Users\WILL_V\pcd_8.pcs.zip");
+
+Console.WriteLine("解压缩");
+
+ZipHelper.UnZip(@"C:\Users\WILL_V\pcd_8.pcs.zip",@"C:\Users\WILL_V\TestData\Test\pcd_8.pcs");
+
 ##Lience
 GPL
